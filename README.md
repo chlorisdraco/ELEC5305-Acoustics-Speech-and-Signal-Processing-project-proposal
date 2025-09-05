@@ -1,3 +1,5 @@
+# ELEC5305 Project Proposal
+
 **Author:** Jiahao Xu  
 **SID:** 530332675  
 **Date:** 31/08/2025  
