@@ -1,5 +1,3 @@
-# ELEC5305 Acoustics, Speech and Signal Processing (Project Proposal)
-
 **Author:** Jiahao Xu  
 **SID:** 530332675  
 **Date:** 31/08/2025  
