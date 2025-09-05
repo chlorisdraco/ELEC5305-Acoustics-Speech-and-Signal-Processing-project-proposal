@@ -10,25 +10,25 @@
 The purpose of this project proposal is to demonstrate **basic audio signal processing in MATLAB** through the analysis of both speech and music signals.  
 
 The work includes:
-- Operations in the time and frequency domain  
-- Synthesis of a bell sound using decaying sinusoids  
-- Extraction of short-time features such as energy, zero-crossing rate, and spectral measures  
-- Comparison between speech and music signals  
-- Application of narrowband and wideband short-time Fourier transforms (STFT)  
+Operations in the time and frequency domain  
+Synthesis of a bell sound using decaying sinusoids  
+Extraction of short-time features such as energy, zero-crossing rate, and spectral measures  
+Comparison between speech and music signals  
+Application of narrowband and wideband short-time Fourier transforms (STFT)  
 
 ---
 
 ## Background / Introduction
 Audio signals contain useful information in both the **time domain** and **frequency domain**.  
 
-- **Speech**: Strong energy typically below 4 kHz  
-- **Music**: Wider frequency content  
+**Speech**: Strong energy typically below 4 kHz  
+**Music**: Wider frequency content  
 
 Short-time features:  
-- Energy → Related to loudness  
-- Zero-crossing rate → Linked to noisiness  
-- Spectral centroid & bandwidth → Distribution of spectral energy  
-- Spectral flux & rolloff → Spectrum changes  
+Energy → Related to loudness  
+Zero-crossing rate → Linked to noisiness  
+Spectral centroid & bandwidth → Distribution of spectral energy  
+Spectral flux & rolloff → Spectrum changes  
 
 The **short-time Fourier transform (STFT)** addresses the trade-off between **time resolution** and **frequency resolution**.
 
@@ -46,13 +46,13 @@ The project is divided into **five main parts**:
 ---
 
 ## Discussion
-- **Speech signals**: Strong low-frequency components (< 4 kHz).  
-- **Music signals**: Wider frequency content with richer high-frequency details.  
-- **STFT**: Narrowband → better frequency detail; Wideband → better time localisation.  
+**Speech signals**: Strong low-frequency components (< 4 kHz).  
+**Music signals**: Wider frequency content with richer high-frequency details.  
+**STFT**: Narrowband → better frequency detail; Wideband → better time localisation.  
 
 ---
 
 ## References
-- Rabiner, L. & Schafer, R. (2011). *Theory and Applications of Digital Speech Processing*. Pearson.  
-- Lyons, R. (2010). *Understanding Digital Signal Processing*. Prentice Hall.  
-- Smith, J.O. (2007). *Introduction to Digital Filters with Audio Applications*. W3K Publishing.  
+Rabiner, L. & Schafer, R. (2011). *Theory and Applications of Digital Speech Processing*. Pearson.  
+Lyons, R. (2010). *Understanding Digital Signal Processing*. Prentice Hall.  
+Smith, J.O. (2007). *Introduction to Digital Filters with Audio Applications*. W3K Publishing.  
