@@ -56,3 +56,7 @@ The project is divided into **five main parts**:
 Rabiner, L. & Schafer, R. (2011). *Theory and Applications of Digital Speech Processing*. Pearson.  
 Lyons, R. (2010). *Understanding Digital Signal Processing*. Prentice Hall.  
 Smith, J.O. (2007). *Introduction to Digital Filters with Audio Applications*. W3K Publishing.  
+
+---
+## GitHub project site
+https://chlorisdraco.github.io/ELEC5305-Acoustics-Speech-and-Signal-Processing-project-proposal/
