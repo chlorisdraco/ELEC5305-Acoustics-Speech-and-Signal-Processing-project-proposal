@@ -1,18 +1,61 @@
 # ELEC5305-Acoustics-Speech-and-Signal-Processing-project-proposal
 A project proposal for ELEC5305 – focusing on  Audio Processing 
-ELEC5305 Acoustics, Speech and Signal Processing (Lab Report 1)
-Objective
-The purpose of this report is to demonstrate basic audio signal processing in MATLAB through the analysis of both speech and music signals. The work includes operations in the time domain and frequency domain, the synthesis of a bell sound using decaying sinusoids, and the extraction of short-time features such as energy, zero-crossing rate, and spectral measures. A comparison between speech and music is carried out to show how these features change with signal type. Finally, narrowband and wideband short-time Fourier transforms are applied to speech signals to highlight the trade-off between frequency resolution and time resolution.
-Background / Introduction
-Audio signals contain useful information in both the time and frequency domains. Speech often has strong energy below 4 kHz, while music usually shows wider frequency content. Several measures are used to describe signals. Short-time energy is related to loudness, while zero-crossing rate shows how often the signal changes sign and is sometimes linked with noisiness. Spectral centroid and spectral bandwidth describe the distribution of spectral energy, and spectral flux and rolloff capture changes and cumulative energy in the spectrum. Bell sounds can be modelled as sums of decaying sine waves, where each component has its own frequency, amplitude, and decay rate. Over time, the signal fades in a natural way. Speech is a non-stationary signal. Its frequency content changes as time passes. A standard Fourier transform cannot describe this well. The short-time Fourier transform (STFT) addresses this issue. It divides the signal into short windows.A longer window gives better frequency detail but poorer time resolution, while a shorter window provides better time localisation but worse frequency detail.
-Methodology / Implementation
-The work was divided into five main parts. In Part 1, music and speech signals were loaded, converted to mono, segmented into 15-second portions, and plotted in the time domain. In Part 2, time and frequency analysis was performed on the speech signal using the fast Fourier transform (FFT). The one-sided spectrum was produced to show how energy is distributed over frequency.In Part 3, a bell sound was synthesised with parameters controlling frequency, amplitude, and decay rate. Part 4 focused on feature extraction, where short-time energy, zero-crossing rate, spectral centroid, spectral bandwidth, spectral flux, and spectral rolloff were computed for both speech and music. Framing and windowing with a Hamming window were applied to capture time-varying properties. Finally, in Part 5, the short-time Fourier transform was used to compare narrowband and wideband spectrograms of speech. Different window lengths were applied to highlight the trade-off between frequency resolution and time resolution.
-Discussion
-The results showed clear differences between speech and music in both time and frequency analysis. Speech signals exhibited strong low-frequency components, with energy concentrated below 4 kHz, while music displayed wider and richer spectral content. The synthesis of the bell sound confirmed that complex sounds can be built by combining simple sinusoidal components, and the decaying envelope reproduced a natural fading tone. Feature extraction provided insight into how signals can be characterised numerically. Speech generally had higher variation in short-time energy and zero-crossing rate due to silence gaps and phoneme changes, while music signals were smoother and more continuous. Spectral centroid and bandwidth also reflected this difference, with music spanning a wider range of frequencies. The additional measures of spectral flux and rolloff confirmed that speech tends to show sharper spectral transitions. In the STFT results, the narrowband spectrogram gave finer frequency detail but blurred time events, while the wideband spectrogram showed sharper time events but less precise frequency detail. This trade-off demonstrated why window size selection is important when analysing non-stationary signals such as speech.
-Conclusion
-This report presented a complete workflow for basic audio signal processing in MATLAB. The tasks included audio input and output, spectral analysis, sound synthesis, and feature extraction, ending with a comparison of narrowband and wideband STFT. From the experiments, the trade-off between time and frequency resolution was clear. The difference between speech and music also became clear. The work showed that digital audio can be processed and studied in a simple but effective way. It also reinforced key ideas in both time-domain and frequency-domain analysis.
-References
-Giannakopoulos, T. & Pikrakis, A. (2014). Introduction to Audio Analysis: A MATLAB Approach. Academic Press.
-Allen, J. (1977). “Short Term Spectral Analysis, Synthesis, and Modification by Discrete Fourier Transform.” IEEE Transactions on Acoustics, Speech, and Signal Processing, 25(3), 235–238.
-Oppenheim, A. V. & Schafer, R. W. (2010). Discrete-Time Signal Processing. Pearson.
-Course notes and lab instructions from ELEC5305, University of Sydney, 2025.
+# <span style="color:#1E90FF">ELEC5305 Acoustics, Speech and Signal Processing</span>  
+
+<img src="https://upload.wikimedia.org/wikipedia/en/7/71/University_of_Sydney_coat_of_arms.png" alt="USYD Logo" width="120"/>  
+
+**Author:** Jiahao Xu  
+**SID:** 530332675  
+**Date:** 31/08/2025  
+
+---
+
+## <span style="color:#FF4500">Objective</span>  
+The purpose of this project proposal is to demonstrate **basic audio signal processing in MATLAB** through the analysis of both speech and music signals.  
+The work includes:  
+- Operations in the time domain and frequency domain  
+- The synthesis of a bell sound using decaying sinusoids  
+- Extraction of short-time features such as energy, zero-crossing rate, and spectral measures  
+- Comparison between speech and music signals  
+- Application of narrowband and wideband short-time Fourier transforms (STFT)  
+
+---
+
+## <span style="color:#2E8B57">Background / Introduction</span>  
+Audio signals contain useful information in both the **time domain** and **frequency domain**.  
+
+- **Speech**: Often has strong energy below 4 kHz.  
+- **Music**: Usually shows wider frequency content.  
+
+Short-time features include:  
+- **Energy** → Loudness  
+- **Zero-crossing rate** → Linked with noisiness  
+- **Spectral centroid & bandwidth** → Distribution of spectral energy  
+- **Spectral flux & rolloff** → Capture changes in the spectrum  
+
+The **short-time Fourier transform (STFT)** is applied to non-stationary signals to balance **time resolution vs frequency resolution**.
+
+---
+
+## <span style="color:#8A2BE2">Methodology / Implementation</span>  
+The project is divided into **five main parts**:  
+
+1. Load music and speech signals, convert to mono, segment into 15-second portions, and plot in time domain.  
+2. Perform time and frequency analysis using **FFT**.  
+3. Synthesize a bell sound from decaying sinusoids.  
+4. Extract short-time features (energy, zero-crossing rate, spectral centroid, bandwidth, flux, rolloff).  
+5. Apply **narrowband vs wideband STFT** to compare time-frequency trade-offs.  
+
+---
+
+## <span style="color:#DAA520">Discussion</span>  
+- Speech signals: Strong low-frequency components, concentrated below 4 kHz.  
+- Music signals: Broader frequency range, richer high-frequency details.  
+- STFT analysis: Narrowband provides better frequency detail, while wideband improves time localisation.  
+
+---
+
+## <span style="color:#4682B4">References</span>  
+- Rabiner, L. & Schafer, R. (2011). *Theory and Applications of Digital Speech Processing*. Pearson.  
+- Lyons, R. (2010). *Understanding Digital Signal Processing*. Prentice Hall.  
+- Smith, J.O. (2007). *Introduction to Digital Filters with Audio Applications*. W3K Publishing.  
