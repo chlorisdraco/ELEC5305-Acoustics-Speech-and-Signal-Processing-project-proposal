@@ -2,8 +2,6 @@
 A project proposal for ELEC5305 – focusing on  Audio Processing 
 # <span style="color:#1E90FF">ELEC5305 Acoustics, Speech and Signal Processing</span>  
 
-<img src="https://upload.wikimedia.org/wikipedia/en/7/71/University_of_Sydney_coat_of_arms.png" alt="USYD Logo" width="120"/>  
-
 **Author:** Jiahao Xu  
 **SID:** 530332675  
 **Date:** 31/08/2025  
