@@ -50,6 +50,9 @@ The GitHub repository will be easy to use. It will have a README file, sample sc
 
 ## References
 1.Loizou, P. C. (2013). Speech Enhancement: Theory and Practice. CRC Press.
+
 2.Reddy, C. K. et al. (2021). “DNS Challenge: Improving Noise Suppression Models.” Proc. Interspeech.
+
 3.Ephraim, Y., & Malah, D. (1984). “Speech enhancement using a minimum mean-square error short-time spectral amplitude estimator.” IEEE Trans. Acoustics, Speech, and Signal Processing, 32(6), 1109–1121.
+
 4.Tan, K., & Wang, D. (2019). “Learning Complex Spectral Mapping with a Convolutional Recurrent Network for Speech Enhancement.” IEEE/ACM Trans. Audio, Speech, and Language Processing, 27(12), 1996–2008.
